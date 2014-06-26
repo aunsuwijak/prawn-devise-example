@@ -1,0 +1,9 @@
+<h1>Download Invoice</h1>
+
+<p>
+	<% if @user %>
+		<%= @user.email %>
+	<% end %>
+</p>
+
+<%= link_to "Create Invoice", invoice_path(:id) %>
